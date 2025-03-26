@@ -6,7 +6,7 @@ count = len(name)   #to find the length of the string
 upperCase = name.upper() #to convert uppercase
 lowCase = name.lower()  #to convert lowercase
 firstLetterCapital = name.capitalize() # to capitalize only first letter
-leftStrip = name.lstrip("Python ") #left strip from given textfgjhfjfgjgk
+leftStrip = name.lstrip("Python ") #left strip from given text
 
 print(leftStrip)
 print(result)
