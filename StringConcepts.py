@@ -23,4 +23,4 @@ print("To get starting index of Stage", name.find("Stage"))
 print("To get first occurrence of letter o: ", name.find("o"))
 print("To get last occurrence of letter o: ", name.rfind("o"))
 print("To get no occurrence of letter z: ", name.rfind("Z"))  # if there are no occurrences, ans is -1
-print("Substring of given string: ", name[0:name.index("Stage")])
+print("Substring of given string: ", name[6:name.index("Stage")].rstrip(" "))
