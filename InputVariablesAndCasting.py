@@ -8,14 +8,18 @@ c = a+b
 
 fName = "Python"
 lName = 'Tests'
+print(id(fName)) # to get address or memory of any variable
+print(id(lName)) # to get address or memory of any variable
+
+#Unfortunately creating a constant variable not possible in Python
 
 result = False #boolean
 
-First = input("First: ")
-Second = input("Second: ")
-Sum = float(First) + int(Second)
+First = input("Enter First float: ")
+Second = float(input("Enter Second float: ")) # getting the input number in float data type
+Sum = float(First) + int(Second) # convert the given input to any data type
 
-print("Sum: ",Sum)
+print("total Sum value: ",Sum)
 print(f"My Python coding is under progress?: {result}")
 print(F"My First Name is {fName} and My Last Name is {lName}") #F means formatted string
 print("My First Name is: ",fName) #alter way to print output
