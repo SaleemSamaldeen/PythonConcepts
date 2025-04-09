@@ -16,8 +16,8 @@ class Employee:
     def config(self):
         print(self.number, self.designation)
 
-employee = Employee()
-juniorEmp = Employee()
+employee = Employee() # To create an object for a class
+juniorEmp = Employee() # To create an object for a class
 
 employee.number = 5412
 juniorEmp.number = 1234

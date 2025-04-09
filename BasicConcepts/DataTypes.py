@@ -66,7 +66,7 @@ print('Get all from mapping:', mapping)
 print('Get all keys from mapping:', mapping.keys())
 print('Get all values from mapping:', mapping.values())
 print('Get value from specific key mapping:', mapping.get('Backend'))
-print('Get value from secific key mapping:', mapping['Infy'])
+print('Get value from specific key mapping:', mapping['Infy'])
 
 
 
