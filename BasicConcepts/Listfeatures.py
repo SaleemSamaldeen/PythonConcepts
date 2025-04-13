@@ -1,6 +1,15 @@
 class ListFeature:
     # CTRL + SHIFT + F10 to run all files
-    numbers = [45, 85, 12, 93, 15, 23]
+
+    #List is mutable, as we can change values
+    numbers = list() # Initialize an empty list
+
+    numbers.append(45) #use append to add all elements
+    numbers.append(85)
+    numbers.append(12)
+    numbers.append(93)
+    numbers.append(15)
+    numbers.append(23)
 
     print('The minimum number is ', min(numbers))  # Default methods in list python
 
@@ -28,7 +37,12 @@ class ListFeature:
     marks.append('python') #Append can be used to add one value at the end of list
     print('After append the values in marks: ', marks)  # Append will add value at the end of list in python
 
-    marks.extend(['extend',22.7, 65]) #Extend can add multiple values in the list
+    marksOfStudents = list()
+    marksOfStudents.append(22.7)
+    marksOfStudents.append(65)
+    marksOfStudents.append('allStudents')
+
+    marks.extend(marksOfStudents) #Extend can add multiple values in the list
     print('After extending the values in marks: ', marks)  # Extend will add value at the end of list in python
 
     marks.insert(2, 95)

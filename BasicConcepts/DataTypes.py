@@ -36,17 +36,17 @@ singleChar = 's'
 print('To get the type of String dataType:' , type(name))
 print('To get the type of char dataType, which is also String:' , type(singleChar))
 
-#list
+#list #List is mutable, as we can change values
 noOfStudents = [8,9,7,6,4,7,2,3]
 print('To get type of list dataType',type(noOfStudents))
 
 #tuple
-tupleExample = (8,9,7,6,4,7,2,3)
+tupleExample = (8,9,7,6,4,7,2,3) # Immutable, so values can't be changed and iteration is faster than list
 print('To get the type of tuple dataType',type(tupleExample))
 print('To get the value from Tuple: ',tupleExample[0])
 
 #set
-setExample = {8,9,7,6,4,7,2,3} #remove duplicates and unordered collections
+setExample = {8,9,7,6,4,7,2,3} # No duplicates allowed and unordered collections | indexing not supported in set as we don't follow proper sequence
 print('All values from set:', setExample)
 print('To get the type of set dataType',type(setExample))
 
